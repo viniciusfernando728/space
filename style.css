@@ -1,0 +1,154 @@
+@charset "UTF-8"
+
+*
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@font-face {
+    font-family: 'Revamped';
+    src: url(fontes/Revamped.otf) format(opentype);
+}
+
+:root {
+    --cor01: #06162d;
+    --cor02: rgb(2, 2, 93);
+    --cor03: #CC2936;
+    --fonte01: 'EB Garamond', 'Times New Roman', serif;
+    --fonte02: 'Revamped', 'Times New Roman', serif;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    font-family: var(--fonte02);
+    font-size: 5em;
+    margin: 0px;
+}
+
+h2 {
+    font-family: var(--fonte01);
+    font-size: 2em;
+    color: var(--cor02);
+}
+
+ul {
+    list-style-type: '\2756\0020';
+}
+
+a {
+    color: var(--cor03);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p.slogan {
+    margin: 8px;
+    text-indent: 0px;
+    font-size: 1.2em;
+}
+
+p {
+    text-indent: 35px;
+}
+
+p.conclusao {
+    text-indent: 0px;
+    text-align: center;
+}
+
+p.marca {
+    font-family: var(--fonte02);
+    font-size: 2.5em;
+    margin: 0px;
+    padding-top: 20px;
+    text-indent: 0px;
+}
+
+p#icone {
+    margin-top: 10px;
+    text-indent: 0px;
+}
+
+p.copy {
+    color: rgb(107, 107, 107);
+    text-indent: 0px;
+}
+
+header {
+    background-image: url(imagens/fundo-header.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: auto;
+    height: 200px;
+    padding: 20px 20px 5px 20px;
+    text-align: center;
+}
+
+nav {
+    text-align: justify;
+    background-color: black;
+    padding: 7px;
+    font-family: var(--fonte01);
+}
+
+a.menu:hover {
+    background-color: var(--cor01);
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    transition-duration: 0.6s;
+}
+
+a.menu {
+    color: white;
+    text-decoration: none;
+    padding: 6px 15px
+}
+
+main {
+    margin: 0px;
+    text-align: justify;
+}
+
+article {
+    min-width: 320px;
+    max-width: 950px;
+    margin: auto;
+    padding: 15px;
+}
+
+img.imagemg {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+img.imagemp {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+}
+
+
+
+footer{
+    background-color: black;
+    height: 200px;
+    color: white;
+    text-align: center;
+}
